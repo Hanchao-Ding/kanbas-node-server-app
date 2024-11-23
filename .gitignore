@@ -1,0 +1,17 @@
+# Node modules directory
+node_modules/
+
+# Environment variable files
+.env
+.env.local
+
+# IDE or editor specific files (e.g., for IntelliJ or VSCode)
+.idea/
+.vscode/
+
+# Logs
+logs/
+*.log
+
+# Optional: OS generated files
+.DS_Store
