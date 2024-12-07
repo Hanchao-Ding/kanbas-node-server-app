@@ -1,7 +1,7 @@
-import PathParameters from "./PathParameters";
-import QueryParameters from "./QueryParameters.";
-import WorkingWithObjects from "./WorkingWithObjects.";
-import WorkingWithArrays from "./WorkingWithArrays.";
+import PathParameters from "./PathParameters.js";
+import QueryParameters from "./QueryParameters.js";
+import WorkingWithObjects from "./WorkingWithObjects.js";
+import WorkingWithArrays from "./WorkingWithArrays.js";
 export default function Lab5(app) {
   app.get("/lab5/welcome", (req, res) => {
     res.send("Welcome to Lab 5");
