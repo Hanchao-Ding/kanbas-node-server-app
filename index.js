@@ -1,6 +1,10 @@
 import express from 'express'
 import Hello from "./Hello.js"
+<<<<<<< HEAD
 import Lab5 from './lab5/index.js';
+=======
+import Lab5 from "./Lab5/index.js";
+>>>>>>> ec85afa45144556290a4b9be70dde34b723bfa86
 import cors from "cors";
 import UserRoutes from "./Kanbas/Users/routes.js";
 import CourseRoutes from "./Kanbas/Courses/routes.js";
